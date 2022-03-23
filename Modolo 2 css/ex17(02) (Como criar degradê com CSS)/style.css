@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+#body1 {
+    background-image: linear-gradient(to bottom, #EB2CE4, #A51ED4 , #8622F6);
+    background-attachment: fixed;
+}
+/* (*): Configurações globais das CSS */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%*/
+}
+h1 {
+    color: #6AEB2D;
+}
+
+/*(deg): Degrade por grau, porém da pra fazer degrade por circulo (circle), por quadrado, etc.*/
+.body2 {
+    background-image: linear-gradient(120deg, #3C8ADC 9%, #C0348D, #DF3A65, #F48875, #FDD37A);
+    background-attachment: fixed;
+}
+.body3 {
+    background-image: linear-gradient(45deg, #7966D9, #0074E0, #0CEDBF);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #6454b4a6 ; /* primeiro parametro é quanto a sombra vai para direita, o segundo o quanto vai para baixo, o terceiro o quanto a sombra vai se espalhar e o ultimo é a cor*/
+}
+
+.titulo {
+    color: #0CEDBF;
+    text-align: center;
+    text-shadow: 1px 1px 2px #08b391c4;
+}
+
+h2 {
+    color: #F7760C;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*
+    Em html é id / em CSS é #
+    Em html é class / em CSS é .
+*/
+
+body {
+    background-image: linear-gradient(90deg , blue, aquamarine );
+    background-attachment: fixed;}
+
+#Body1 {
+        background-color: aquamarine;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px rgba(110, 223, 185, 0.466);
+    }
+
+.titulo {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    width: 550px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 2px #B34E36 ;
+    color: #FF9980;
+}    
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: left;
+    text-shadow: 1px 1px 2px #B34E36 ;
+    color: #FF9980;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 1px 1px 2px #B34E36;
+    color: #BF305D;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.basico {
+    background-color: #33CC42;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #208029;
+    text-align: center;
+
+}
+.intermediario {
+    background-color: #33CC42;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #208029;
+    text-align: center;
+}
+
+.avançado {
+    background-color: #33CC42;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #208029;
+    text-align: center;
+}

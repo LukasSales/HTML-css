@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: aqua;
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 100px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: black;
+    /*borde simplicando width style e color (nessa ordem)*/
+    border: 10px dashed black;
+
+    text-align: center;
+    outline-style: dashed;
+    outline-width: 10px;
+    outline-color: aqua;
+}
+
+a {
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Beastly&display=swap');
+@font-face {
+    font-family:"Campus";
+    src: url(CAMPUS\ PERSONAL\ USE.ttf) format(truetype);
+}
+/*Para usar font externa precisa usar a tag "@font-face"
+
+o format pode ser 
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+*/
+
+body {
+    font-family: 'Rubik Beastly'; 
+    font-size: 16px;
+    color: black;
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Great Vibes';
+    font-size: 3em;
+}
+
+.body2, .h1 {
+    font-family: Campus;
+}

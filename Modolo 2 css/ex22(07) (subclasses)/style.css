@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+display: inline-block; coloca tudo na mesma linha. :(dois pontos) esta relacionando uma pseudo-classe 
+a pseudo-classe 'hover' muda as configurações de estado, exemplo, mudar a cor quando o mouse passa por cima*/
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient( 310deg, #FFFF00, #FFCE0D, #56FF0D);
+}
+
+.body1, .body2 {
+    display: inline-block;
+    background-color: #56FF0D;
+    border-radius: 20px;
+    height: auto;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #00E809;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    color: #FF0DEE;
+    text-shadow: 1px 1px 5px #B300A6;
+}
+
+p, .img, .body2 {
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div:hover {
+    background-color: aliceblue;
+}

@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet   ;
+}
+
+.videos1 {
+    text-align: center;
+}
+
+.videos2 {
+    text-align: center;
+}
+
+.videpag {
+    text-align: center;
+}
+
+.voltar {
+    text-align: center;
+}
+
+.texto01 {
+    color: blueviolet;
+    font-weight: bold;
+    size: 300px;
+    text-align: center;
+}

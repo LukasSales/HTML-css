@@ -1,0 +1,14 @@
+h1 {
+    font: italic bolder 30px Arial;
+    text-align: center;
+}
+p, br {
+    font: italic normal 16px arial;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h2 {
+    font: italic bold 25px arial;
+    text-align: center;
+}

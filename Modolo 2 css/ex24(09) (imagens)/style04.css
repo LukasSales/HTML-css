@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("https://geekdama.com.br/wp-content/uploads/2022/03/one-piece-manga-1044-luffy-despertar-gear5-coloricacao-postcover-800x450.jpg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center
+    bottom; /*o primeiro é a coluna e o segundo é a linha*/
+    height: 97vh; /* vh= é o valor da tela viewport*/
+    border: 1px dashed black;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+#conteiner {
+    position: relative; /*a maioria dos conteiner tem a posição relativa, mas é bom explicitar*/
+    height: 95vh;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    left: 50%;
+    top: 50%; /*para usar a posição left e top, a posição tem que ficar absoluta*/
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+}

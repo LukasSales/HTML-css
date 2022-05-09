@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Viewport" content="Width=device-width, initial-scale=1.0">
+        <title>Agrupar coluna das tabelas</title>
+        <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Exercício de tabelas</h1>
+        <table>
+            <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2"> <!--span: faz com que as configurações vá para duas colunas-->
+            <col class="cprof">
+        </colgroup>
+            <caption>Cadastro</caption>
+            <thead>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissal</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria</td>
+                    <td>Mulher</td>
+                    <td>42</td>
+                    <td>Jornalista</td>
+                </tr>
+                <tr class="destaque">
+                    <td>Lucas</td>
+                    <td>Homem</td>
+                    <td>23</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td>Gustavo</td>
+                    <td>Homem</td>
+                    <td>32</td>
+                    <td>Cozinheiro</td>
+                </tr>
+                <tr class="destaque">
+                    <td>Luiza</td>
+                    <td>Mulher</td>
+                    <td>50</td>
+                    <td>Medica</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
